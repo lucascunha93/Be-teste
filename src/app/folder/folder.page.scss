@@ -110,7 +110,7 @@ ion-title {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 20px;
+  padding: 20px 0 0 20px;
 }
 
 .card-training > h5 {
@@ -130,3 +130,83 @@ ion-title {
   margin: -4px 0px 0px 1px;
 }
 
+.card-slide-content {
+  margin-left: 14px;
+}
+
+.ion-slide-content {
+  width: auto;
+  height: auto;
+}
+
+.card-slide-training {
+  opacity: 38.5%;
+}
+
+.info-slide-training {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.info-slide-training > p {
+  font-size: 10px;
+  text-align: left;
+  margin-left: 2px;
+}
+
+.card-slide {
+  border-radius: 11px;
+  overflow: hidden;
+  height: 90px;
+  width: 148px;
+  object-fit: cover;
+  margin: 4px;
+}
+
+.info-card {
+  position: absolute;
+  left: 10px;
+  bottom: 14px;
+}
+
+.info-card  > p {
+  font-size: 8px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: orange;
+    font-weight: 100;
+    margin-bottom: 3px;
+}
+
+
+.info-card  > h6 {
+  font-size: 8px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.new-content {
+  opacity: 15%;
+}
+
+.info-card-content {
+  border-radius: 20px;
+  border: #fff 0.1px solid;
+  opacity: 15%;
+}
+
+.info-card-content > div {
+  position: absolute;
+  background-color: orange;
+  border-radius: 6px;
+  width: 30px;
+  height: 30px;
+  left: 25px;
+  top: 34px;
+}
