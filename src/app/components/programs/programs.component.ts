@@ -7,5 +7,20 @@ import { Component } from '@angular/core';
 })
 export class ProgramsComponent {
 
+  programs = [
+    {
+      "titulo": "LEVANTAMENTO DE PESO",
+      "started": true
+    },
+    {
+      "titulo": "YOGA",
+      "started": false
+    },
+    {
+      "titulo": "MUSCULACÃO",
+      "started": true
+    },
+  ]
+
   constructor() { }
 }

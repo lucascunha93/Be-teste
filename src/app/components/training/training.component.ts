@@ -1,5 +1,4 @@
-import { Component, Input } from '@angular/core';
-import { Training } from './../../../models/training';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-training',
@@ -8,8 +7,7 @@ import { Training } from './../../../models/training';
 })
 export class TrainingComponent {
 
-  //@Input()
-  traine: Training;
+  training = [1, 2, 3]
 
   constructor() { }
 
