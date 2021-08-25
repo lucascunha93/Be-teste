@@ -1,0 +1,16 @@
+<div class="card-programs">
+  <h5>PROGRAMAS</h5>
+  <div>Novo</div>
+</div>
+
+<div class="card-slide-content">
+  <ion-slides [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }">
+    <ion-slide class="ion-slide-content" *ngFor="let program of programs">
+      <ion-img class="card-slide" src="../../assets/icon/academy.jpg"></ion-img>
+      <div class="info-card">
+        <p *ngIf="program.started">continuar treinando</p>
+        <h6>{{program.titulo}}</h6>
+      </div>
+    </ion-slide>
+  </ion-slides>
+</div>

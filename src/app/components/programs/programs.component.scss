@@ -1,0 +1,58 @@
+.card-programs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 0 0 20px;
+}
+
+.card-programs > div {
+    background-color: orange;
+    border-radius: 10px;
+    padding: 0px 4px;
+    font-size: 9px;
+    margin: -4px 0px 0px 1px;
+}
+  
+.card-slide-content {
+    margin-left: 14px;
+}
+
+.ion-slide-content {
+    width: auto;
+    height: auto;
+}
+
+.card-slide {
+    border-radius: 11px;
+    overflow: hidden;
+    height: 90px;
+    width: 148px;
+    object-fit: cover;
+    margin: 4px;
+}
+
+.info-card {
+    position: absolute;
+    left: 10px;
+    bottom: 14px;
+}
+
+.info-card  > p {
+    font-size: 8px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    color: orange;
+    font-weight: 100;
+    margin-bottom: 3px;
+}
+
+
+.info-card  > h6 {
+font-size: 8px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}

@@ -1,0 +1,16 @@
+<div class="card-training">
+  <h5>PERSONAL ONLINE</h5>
+  <ion-icon name="add-circle-outline"></ion-icon>
+</div>
+
+<div class="card-slide-content">
+  <ion-slides [options]="{ slidesPerView: 'auto', zoom: false, grabCursor: true }">
+    <ion-slide class="ion-slide-content" *ngFor="let traine of training">
+      <ion-img class="card-slide card-slide-training" src="../../assets/icon/academy.jpg"></ion-img>
+      <div class="info-slide-training">
+        <ion-icon name="add-circle-outline"></ion-icon>
+        <p>NOVO<br>TREINO</p>
+      </div>
+    </ion-slide>
+  </ion-slides>
+</div>

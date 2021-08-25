@@ -1,0 +1,50 @@
+.card-training {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px 0 0 20px;
+  }
+  
+  .card-training > h5 {
+    margin: 0;
+  }
+  
+  .card-training > ion-icon {
+    color: orange;
+    margin-left: 3px;
+  }
+  
+  .card-slide-content {
+    margin-left: 14px;
+  }
+  
+  .ion-slide-content {
+    width: auto;
+    height: auto;
+  }
+  
+  .card-slide-training {
+    opacity: 38.5%;
+  }
+  
+  .info-slide-training {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .info-slide-training > p {
+    font-size: 10px;
+    text-align: left;
+    margin-left: 2px;
+  }
+  
+  .card-slide {
+    border-radius: 11px;
+    overflow: hidden;
+    height: 90px;
+    width: 148px;
+    object-fit: cover;
+    margin: 4px;
+  }

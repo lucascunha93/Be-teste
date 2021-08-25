@@ -3,19 +3,42 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>{{ folder }}</ion-title>
+    <ion-title>
+      <div class="content-title">
+        <img src="../../assets/icon/logo.png" alt="">
+        <ion-icon class="notification-active" name="notifications"></ion-icon>
+        <div class="notification"></div>
+      </div>
+
+    </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">{{ folder }}</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <strong class="capitalize">{{ folder }}</strong>
-    <p>Explore <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div class="info-user-content">
+    <div class="info-user-detail">
+      <img src="../../assets/icon/user-logo.png" alt="">
+      <div class="description-user">
+        <h6>Leonardo Santos</h6>
+        <p>Nível roxo</p>
+      </div>
+    </div>
+
+    <div class="additional-info">
+      <div>
+        <ion-icon name="body-outline"></ion-icon>
+        <p>MEU CORPO</p>
+        <ion-icon name="trophy-outline"></ion-icon>
+        <p>OBJETIVOS E CONQUISTAS</p>
+      </div>
+    </div>
   </div>
+
+  <app-training></app-training>
+
+  <app-programs></app-programs>
+
+  <app-news></app-news>
+
 </ion-content>
