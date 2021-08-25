@@ -10,6 +10,10 @@ ion-title {
   text-align: center;
 }
 
+ion-content {
+  padding: 0 0 20px 0;
+}
+
 .notification-active {
   position: absolute;
   padding: 4px;
@@ -104,109 +108,4 @@ ion-title {
   margin: 0;
   font-size: 7px;
   color: orange;
-}
-
-.card-training, .card-programs, .new-content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 20px 0 0 20px;
-}
-
-.card-training > h5 {
-  margin: 0;
-}
-
-.card-training > ion-icon {
-  color: orange;
-  margin-left: 3px;
-}
-
-.card-programs > div {
-  background-color: orange;
-  border-radius: 10px;
-  padding: 0px 4px;
-  font-size: 9px;
-  margin: -4px 0px 0px 1px;
-}
-
-.card-slide-content {
-  margin-left: 14px;
-}
-
-.ion-slide-content {
-  width: auto;
-  height: auto;
-}
-
-.card-slide-training {
-  opacity: 38.5%;
-}
-
-.info-slide-training {
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.info-slide-training > p {
-  font-size: 10px;
-  text-align: left;
-  margin-left: 2px;
-}
-
-.card-slide {
-  border-radius: 11px;
-  overflow: hidden;
-  height: 90px;
-  width: 148px;
-  object-fit: cover;
-  margin: 4px;
-}
-
-.info-card {
-  position: absolute;
-  left: 10px;
-  bottom: 14px;
-}
-
-.info-card  > p {
-  font-size: 8px;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-    text-align: left;
-    color: orange;
-    font-weight: 100;
-    margin-bottom: 3px;
-}
-
-
-.info-card  > h6 {
-  font-size: 8px;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-    text-align: left;
-}
-
-.new-content {
-  opacity: 15%;
-}
-
-.info-card-content {
-  border-radius: 20px;
-  border: #fff 0.1px solid;
-  opacity: 15%;
-}
-
-.info-card-content > div {
-  position: absolute;
-  background-color: orange;
-  border-radius: 6px;
-  width: 30px;
-  height: 30px;
-  left: 25px;
-  top: 34px;
 }
